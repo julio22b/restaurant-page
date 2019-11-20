@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+body{
+    background-image: url(/src/img/restaurant-dark-bar-architecture-34650.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tabsWrapper{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 15px auto;
+    background: rgba(255, 255, 255, 0.2)
+}
+
+.tabsWrapper div{
+    padding: 15px;
+    cursor: pointer;
+    text-shadow: 2px 2px 2px black;
+    font-weight: 800;
+    font-size: 2.5em;
+}
+
+.tabsWrapper div:hover{
+    color: rgb(158, 39, 39)!important;
+    text-shadow: 1px 1px 1px white!important;
+    transition: all 0.5s ease-in;
+}
+
+h1{
+    font-size: 8em;
+    margin: 5% 0 0 10%;
+    font-family: 'Calistoga', cursive;
+    text-shadow: 5px 5px 5px black;
+}
+
+p{
+    font-size: 2em;
+    margin: 0 0 0 25%;
+    padding: 10px;
+    font-weight: 600;
+    text-shadow: 3px 3px 3px black;
+}
+
+.menu-items-wrapper{
+    display: none;
+    width: 100%;
+    height: 500px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.menu-items-wrapper div{
+    width: 40%;
+    height: 55%;
+    background-size: 55% 80%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 25px 0;
+    margin-bottom: 30px;
+}
+
+.menu-item1{
+    background: url(/src/img/blur-breakfast-close-up-dairy-product-376464.jpg);
+}
+
+.menu-item2{
+    background: url(/src/img/burger-with-fried-fries-on-black-plate-with-sauce-on-the-1199957.jpg);
+}
+
+.menu-item3{
+    background: url(/src/img/chocolate-desserts-2373520.jpg);
+}
+
+.menu-item4{
+    background: url(/src/img/glass-of-blue-curacao-with-ice-2093089.jpg);
+}
+
+.menu-items-wrapper span {
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 50px 0;
+    text-align: center;
+    width: 100%;
+    text-shadow: 2px 2px 2px black;
+}
+
+.contactWrapper{
+    display: none;
+    margin: 0 auto;
+    margin-top: 10%;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+.contactWrapper p{
+    margin: 0 0;
+}
