@@ -8,7 +8,7 @@
 
 
 body{
-    background-image: url(/src/img/restaurant-dark-bar-architecture-34650.jpg);
+    background-image: url(./restaurant-dark-bar-architecture-34650.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -71,19 +71,19 @@ p{
 }
 
 .menu-item1{
-    background: url(/src/img/blur-breakfast-close-up-dairy-product-376464.jpg);
+    background: url(./blur-breakfast-close-up-dairy-product-376464.jpg);
 }
 
 .menu-item2{
-    background: url(/src/img/burger-with-fried-fries-on-black-plate-with-sauce-on-the-1199957.jpg);
+    background: url(./burger-with-fried-fries-on-black-plate-with-sauce-on-the-1199957.jpg);
 }
 
 .menu-item3{
-    background: url(/src/img/chocolate-desserts-2373520.jpg);
+    background: url(./chocolate-desserts-2373520.jpg);
 }
 
 .menu-item4{
-    background: url(/src/img/glass-of-blue-curacao-with-ice-2093089.jpg);
+    background: url(./glass-of-blue-curacao-with-ice-2093089.jpg);
 }
 
 .menu-items-wrapper span {
